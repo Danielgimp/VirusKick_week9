@@ -34,7 +34,7 @@
 * מה רואים מעבר לגבולות המסך?  
 אין עצמים מחוץ למסך\ מצלמה.
 
-![alt text](https://github.com/GameDev2020/VirusKick_week9/blob/main/mainGame.jpg?raw=true)
+![alt text](https://raw.githubusercontent.com/GameDev2020/VirusKick_week9/main/mainGame.JPG)
 
 ### 2. מה עושים?
 
