@@ -125,8 +125,7 @@
 לפי המכשולים שהשחקן נתקל בהם, כמה חיים נשאר לשחקן בשלב, וכמה זמן נשאר לשחקן בשלב.  
 מכיוון שהמשחק הוא לינארי ומדובר בחללית שמתקדמת קדימה, השלבים הם יהיו משטח שבו השחקן צריך להיות כל הזמן, דוגמא לשלבים (ראשוניים) :  
 
-![alt text](https://github.com/GameDev2020/VirusKick/blob/master/Pictures%20and%20Flowcharts/Q5%20level%201.jpg?raw=true)
-![alt text](https://github.com/GameDev2020/VirusKick/blob/master/Pictures%20and%20Flowcharts/Q5%20Level%202.jpg?raw=true)
+![alt text](https://raw.githubusercontent.com/GameDev2020/VirusKick_week9/main/endlessWorld.JPG)
 
 
 ### 6.	מה הסיפור?
