@@ -23,32 +23,56 @@
 ## תיעוד הקוד
  
  * https://github.com/GameDev2020/VirusKick_week9/blob/main/Assets/scripts/GameManager.cs
+ 
  מנהל את המשחק כולו, מצהיר מתי המשחק מתחיל(בעת לחיצה על מקש רווח), מתי המשחק מסתיים, סוכם את הנקודות המצטברות ומאפס את המשחק בעת פסילות.
+ 
  * https://github.com/GameDev2020/VirusKick_week9/blob/main/Assets/scripts/PlayerMovement.cs
+ 
  מאפשר לשחקן תזוזה ימינה ושמאלה, וקפיצה שנעשת עם 3 דגשים:
  1. מקש רווח לחיצה קצרה- גורר קפיצה ונחיתה מהירה.
  2. לחיצה ארוכה על רווח מעט את ההתקדמות חזרה אל הקרקע.
  3. לא ניתן לבצע ריבוי קפיצות, נעשת בדיקה אם השחקן על הקרקע ולאחר מכן רק יוכל לקפוץ שוב.
+ 
  * https://github.com/GameDev2020/VirusKick_week9/blob/main/Assets/scripts/ShipCollsion.cs
+ 
    מנהל את אירוע ההתנגשות בקרקע, סקריפט שנועד לזהות אם ניתן לקפוץ או האם השחקן עדין באוויר. נועד לשם מניעת כפילויות. נוסף לכך בודק התנגשות בוירוס.
+   
  * https://github.com/GameDev2020/VirusKick_week9/blob/main/Assets/scripts/ScoreCalc.cs
+ 
  שולף מהסקריפט 'מנהל המשחק' את הניקוד המצתבר והוא מוצג על המסך בכל פריים
+ 
  * https://github.com/GameDev2020/VirusKick_week9/blob/main/Assets/scripts/PlayerCollision.cs
- מעדכן אם השחקן על הקרקע בעת הנחיתה, לאחר הנחיתה, וכאשר קופץ שוב מעדכן כי כבר לא הקרקע. באמצעות משתנה בוליאני שמעדכן את 'מנהל המשחק' בכל רגע
- * https://github.com/GameDev2020/VirusKick_week9/blob/main/Assets/scripts/PlatformSpawner.cs
- המשחק במבט כללי משדר שביל אינסופי, ועל מנת ליישם זאת ללא הגבלה של זמן וגודל קבוע, יצרנו סקריפט שבעת הגדרת זמן מסוים מוסיף  רכיב בסוף השביל.
+ 
+מעדכן אם השחקן על הקרקע בעת הנחיתה, לאחר הנחיתה, וכאשר קופץ שוב מעדכן כי כבר לא הקרקע. באמצעות משתנה בוליאני שמעדכן את 'מנהל המשחק' בכל רגע
+
+* https://github.com/GameDev2020/VirusKick_week9/blob/main/Assets/scripts/PlatformSpawner.cs
+
+המשחק במבט כללי משדר שביל אינסופי, ועל מנת ליישם זאת ללא הגבלה של זמן וגודל קבוע, יצרנו סקריפט שבעת הגדרת זמן מסוים מוסיף  רכיב בסוף השביל.
+ 
  * https://github.com/GameDev2020/VirusKick_week9/blob/main/Assets/scripts/PlatformPooler.cs
+ 
 יצרנו רשימה של משטחים אותה ניתן להגדיר ידנית ביוניטי. ברשימה זאת ניתן לשים כל מיני סוגים של משטחים שחלקם עם וירוסים וחלקם עם מכשולים אחרים אותם נגדיר בהמשך.
 מן הרשימה הזאת מוגדר בצורה רנדומלית משטח אותו יוצרים כל זמן מוגדר בסוף השביל על מנת לדמות משחק אינסופי.
+
 * https://github.com/GameDev2020/VirusKick_week9/blob/main/Assets/scripts/MovePlatforms.cs
+
 לשחקן אין יכולת לקבוע לעצמו מהירות, הוא נע באופן דיפולטיבי קדימה, אך למעשה אנחנו הגדרנו כי המשטח נע לכיוון השחקן כך שזה מדומה לכך שהשחקן רץ על המשטח.
 לכל משטח שנוצר, מוגדר סקריפט זה שנותן מהירות מסוימת שעולה בהדרגה לכיוון השחקן. כל המשטחים נעים באותה מהירות על מנת ליצור אחידות למשחק.
+
 * https://github.com/GameDev2020/VirusKick_week9/blob/main/Assets/scripts/FollowPlayer.cs 
+
 סקריפט שמייצב את המצלמה בקצב קבוע אחרי השחקן בהתאם לתזוזתו
+
 * https://github.com/GameDev2020/VirusKick_week9/blob/main/Assets/scripts/FinalScore.cs
+
 כאשר מוגדר כי המשחק הסתיים, יוצג התוצאה הסופית של המשחק. לקוח מהסקריפט של מנהל המשחק
+
 * https://github.com/GameDev2020/VirusKick_week9/blob/main/Assets/scripts/DeactivateObject.cs
 
+אחר התקדמות במשטחים במשך זמן מסוים נכבה את הרכיבים שהתרחקנו מהם, על מנת לא להעמיס ברכיבים דלוקים במשחק. את הזמן ניתן לקבוע ידנית 
+
+* https://github.com/GameDev2020/VirusKick_week9/blob/main/Assets/scripts/CanvasBoardManager.cs
+בוחר איזה רכיבים מהקנאבס יופיעו בעת הרצת המשחק ואיזה רכיבים יוצגו בעת איפוס
 
 ## פרטי המשחק
 
