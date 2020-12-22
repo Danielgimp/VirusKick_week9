@@ -157,8 +157,6 @@
 * אילו אפשרויות יהיו למאפיינים החיצוניים של המשחק? (בהירות, קול וכו')  
 יהיה ניתן לבחור רמת קושי למשחק, ויהיה מסך של הוראות.  
      
-![alt text](https://github.com/GameDev2020/VirusKick/blob/master/Pictures%20and%20Flowcharts/choose%20screen.jpg?raw=true)
-
 
 ### 5. מה העולם?
 
