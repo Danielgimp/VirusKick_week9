@@ -83,9 +83,7 @@
 וירוס C- מוריד מהצבירת נקודות ויכול לפגוע בשבירת שיא אישי.  
 וירוס D- וירוס שעוצר את הדמות מתזוזה. 
 ומכשולים סטטיים שמונעים מהשחקן לזוז.
-![alt text](https://github.com/GameDev2020/VirusKick/blob/master/Pictures%20and%20Flowcharts/Q3%20Viruses.jpg?raw=true)  
-![alt text](https://github.com/GameDev2020/VirusKick/blob/master/Pictures%20and%20Flowcharts/Q3%20Rocks.jpg?raw=true)  
-![alt text](https://github.com/GameDev2020/VirusKick/blob/master/Pictures%20and%20Flowcharts/Q3%20Player.jpg?raw=true)
+
 
 ### 4. מה האפשרויות?
 
