@@ -4,7 +4,7 @@
 
 **להביא את התרופה לוירוס קטלני עם נגיעות של נוסטלגיה**
 
-# itch link: https://gamedev2020.itch.io/viruskick-week9
+### itch link: https://gamedev2020.itch.io/viruskick-week9
 
 ## מהות המשחק
 
