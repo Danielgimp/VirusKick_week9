@@ -21,7 +21,7 @@ public class ScoreCalc : MonoBehaviour
     {
         if(gameM.startGame)
         {           
-            scoreText.text = gameM.Score.ToString(); //distance show on canvas
+            scoreText.text = "Score: "+gameM.Score.ToString(); //distance show on canvas
         }  
         
     }

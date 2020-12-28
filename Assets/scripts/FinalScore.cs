@@ -16,13 +16,13 @@ public class FinalScore : MonoBehaviour
         gameM = GameManager.Instance;
         scoreText = GetComponent<TMP_Text>();
         score = GameManager.Instance.CurrentGameSpeed;
-        scoreText.text = $"Score: 0";
+        scoreText.text = $"High Score: 0";
         GameManager.onGameEnd += SetScore;
     }
 
     private void SetScore()
     {
-        scoreText.text = $"Score: {gameM.Score}";
+        scoreText.text = $" High Score: {gameM.Score}";
     }
 
     // Update is called once per frame
