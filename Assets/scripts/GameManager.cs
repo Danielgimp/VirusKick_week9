@@ -105,7 +105,7 @@ public class GameManager : MonoBehaviour
     {
         if (slider != null && startGame)
         {
-            float timeSlice = sliderFillRate/10 * (Time.deltaTime);
+            float timeSlice = sliderFillRate/100 * (Time.deltaTime);
             while (slider.value <= 1f && startGame)
             {                
                 slider.value += timeSlice;
